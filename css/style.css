@@ -1,0 +1,260 @@
+/* Reset CSS Starts */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	:root {
+		scroll-behavior: smooth;
+	}
+}
+
+body {
+	margin: 0;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-family: "Roboto", sans-serif;
+	overflow-x: hidden;
+}
+
+hr {
+	margin: 1rem 0;
+	color: inherit;
+	background-color: currentColor;
+	border: 0;
+	opacity: 0.25;
+}
+
+hr:not([size]) {
+	height: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	cursor: pointer !important;
+	color: #274b76;
+	text-decoration: none;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.font-800 {
+	font-weight: 800;
+}
+
+.container {
+	max-width: 1510px;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.btn {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1;
+	text-align: center;
+	color: #000000;
+	background: transparent;
+	text-transform: capitalize;
+	padding: 14px 31px 13px 31px;
+	display: inline-block;
+	outline: none;
+	border: 2px solid #000000;
+	-webkit-transition: 0.5s ease all; -o-transition: 0.5s ease all; transition: 0.5s ease all;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+.section-heading {
+	
+}
+
+.section-para {
+	
+}
+
+header{box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);padding: 10px 0px;}
+.header-bar{display: flex;margin: 0 auto;width: 100%;align-items: center;padding: 0px 120px;}
+.contact-header{width: 33.33%;text-align: right;}
+.mobile-no{width: 33.33%;}
+.mobile-no a{display: flex;align-items: center;font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+color: #000000;}
+.mobile-no a i {margin-right: 10px;}
+.logo{width: 33.33%;text-align: center;}
+
+
+.banner{display: flex;flex-wrap: wrap;}
+.banner-left{width: 50%;background:url(../img/left-banner.jpg)top left no-repeat;background-size: cover;height: 840px;position: relative;z-index: 11;display: flex;justify-content: center;padding: 20px;padding-top: 200px;}
+.banner-left::after{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background:rgba(2, 0, 46, 0.8);content: "";z-index: -1;}
+.banner-right{width: 50%;background:url(../img/right-banner.jpg)top left no-repeat;background-size: cover;height: 840px;position: relative;z-index: 11;display: flex;justify-content: center;padding:20px;padding-top: 200px;}
+.banner-right::after{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background:rgba(0, 97, 138, 0.8);content: "";z-index: -1;}
+.banner-wrap{max-width: 680px;}
+.section-heading-1{font-style: normal;
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 44px;
+color: #ffffff;
+}
+
+
+.section-heading-2{font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 44px;
+color: #ffffff;
+}
+
+.section-para{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+color: #ffffff;
+}
+
+
+.text-white{color: #ffffff;}
+.text-black{color: #000000;}
+
+.banner-wrap h2{margin-bottom: 50px;}
+.site-list{list-style: none;margin: 0;padding: 0;margin-bottom: 50px;}
+.site-list li{font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+    color: #ffffff;
+	padding: 10px 0px;
+	position: relative;padding-left: 35px;
+}
+.site-list li::before{
+	position: absolute;
+	top: 17px;
+	left: 0;
+	content: "";
+	background: #ffffff;
+	width: 16px;
+	height: 16px;
+	transform: rotate(45deg) translateY(-50%);
+}
+
+
+
+.banner-wrap .btn{color: #ffffff;border-color: #ffffff;}
+.deal-closer-bg{background:url(../img/what-is-auto.jpg)top left no-repeat;background-size: cover;position: relative;z-index: 1;padding: 100px 0px 80px 0px;margin-bottom: 20px;}
+.deal-closer-bg::before{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background:rgba(0, 0, 0, 0.9);content: "";z-index: -1;}
+
+.deal-closer-bg .section-para{padding: 20px 0px;max-width: 986px;}
+
+.market-place-wrap{display: flex;flex-wrap: wrap;align-items: center;}
+.market-place-right{width: 50%;padding: 40px;}
+.market-place-left{width: 50%;}
+
+.m-right-wrap p {padding: 20px 0px;color:#6A6A6A;}
+.m-right-wrap ul li{color: #6A6A6A;}
+.m-right-wrap ul li::before{background: #000000;}
+.market-place-img{position: relative;background: #000000;display: inline-block;}
+.market-place-img::before{
+	position: absolute;
+	bottom: -50px;
+	right: -50px;
+	background: #E8F8FF;
+	content: "";
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	
+}
+.market-place-img img{display: block;}
+
+.m-right-wrap .btn{margin-right: 25px;max-width: 280px;width: 100%;padding-top:20px;padding-bottom: 20px;}
+.market-place{padding: 60px 0px;}
+
+.text-right{text-align: right;}
+
+.car-d-b{background: #CAEBFB;padding: 70px 100px;margin-top: 50px;}
+.car-wrap{width: 50%;}
+.car-d-b-wrap{max-width: 1710px;width: 100%;padding: 0px 15px;display: flex;flex-wrap: wrap;margin:0 auto;}
+.car-wrap ul{list-style: none;margin: 0;padding: 0;max-width: 730px;margin-top: 60px;}
+.car-wrap ul li{padding: 20px 0px;position: relative;padding-left: 120px;}
+.car-wrap ul li h4{font-weight: 500;
+	font-size: 30px;
+	line-height: 44px;
+color: #000000;}
+.car-wrap ul li p{font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+    color: #6A6A6A;
+	max-width: 520px;
+}
+.car-wrap ul li span{
+position: absolute;
+top: 0;
+left: 0;
+width: 95px;
+height: 95px;
+border-radius: 50%;
+background: #D9F3FF;
+color: #000000;
+display: flex;
+justify-content: center;
+align-items: center;
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 26px;
+}
+
+footer{padding: 15px 0px;}
+.footer-bar{display: flex;margin: 0 auto;width: 100%;align-items: center;padding: 0px 120px;}
+.right-reserved{width: 33.33%;}
+.right-reserved p{font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;color: #515151;}
+.social-icon{width: 33.33%;text-align: center;}
+.social-icon span i {margin:0px 5px;}
+.trem-condition{width: 33.33%;}
+.trem-condition ul{display: flex;align-items: center;list-style: none;justify-content: flex-end;}
+.trem-condition ul li{padding: 0px 10px;border-right: 1px solid #515151;}
+.trem-condition ul li:last-child{border: none;}
+.trem-condition ul li a{font-weight: 400;
+	font-size: 14px;
+	line-height: 1;
+	color: #515151;}
