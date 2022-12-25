@@ -104,14 +104,7 @@ a {
 
 }
 
-.btn:hover {
-	transform: translateX(10px) rotate(5deg);
-}
 
-
-.section-heading {}
-
-.section-para {}
 
 header {
 	box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
@@ -131,6 +124,8 @@ header {
 	width: 33.33%;
 	text-align: right;
 }
+
+.contact-header a{margin-left: 10px;}
 
 .mobile-no {
 	width: 33.33%;
@@ -159,6 +154,12 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 }
+
+
+
+.banner-slider .banner-left{width: 100%;}
+.banner-slider .banner-right{width: 100%;}
+
 
 .banner-left {
 	width: 50%;
@@ -503,8 +504,8 @@ footer {
 }
 
 
-.video-section{margin-bottom: 20px;}
-.video-section .container{border-bottom: 2px solid grey;}
+.video-section{margin-bottom: 20px;padding: 0;}
+.video-section .container{}
 .video-section .market-place-right{width: 100%;}
 .video-section .market-place-right p {color: #000000;font-size: 20px;text-align: center;line-height: 35px;}
 .video-section .market-place-left{width: 100%;}
