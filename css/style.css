@@ -231,8 +231,8 @@ header {
 
 .section-para {
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 26px;
+	font-size: 20px;
+	line-height: 36px;
 	color: #ffffff;
 }
 
@@ -502,6 +502,14 @@ footer {
 	color: #515151;
 }
 
+
+.video-section{margin-bottom: 20px;}
+.video-section .container{border-bottom: 2px solid grey;}
+.video-section .market-place-right{width: 100%;}
+.video-section .market-place-right p {color: #000000;font-size: 20px;text-align: center;line-height: 35px;}
+.video-section .market-place-left{width: 100%;}
+.video-section .market-place-img::before{display: none;}
+.video-section .market-place-img{display: flex;justify-content: center;background: transparent;}
 
 @media screen and (max-width: 1400px) {
 	.market-place-left {
