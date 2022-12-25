@@ -592,6 +592,8 @@ footer {
 		margin-top: 50px;
 	}
 
+	
+	.video-section .market-place-right{margin-top:0}
 	.qr-section {
 		flex-direction: column-reverse;
 	}
