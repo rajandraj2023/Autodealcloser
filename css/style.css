@@ -732,3 +732,6 @@ footer {
 	.market-place-img iframe{width:300px;height:300px}
 	.video-section{overflow:hidden;}
 }
+
+
+.m-right-wrap .btn{max-width:100%}
