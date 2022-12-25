@@ -741,4 +741,5 @@ footer {
 .social-icon span i {display:block}
 
 
-.car-wrap{border:5px solid #ffffff;padding:20px;}
+
+.car-wrap{border:5px solid #ffffff;padding:20px;border-redius:20px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
