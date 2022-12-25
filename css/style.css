@@ -379,6 +379,7 @@ header {
 	background: #CAEBFB;
 	padding: 70px 10px;
 	margin-top: 50px;
+	overflow:hidden;
 }
 
 .car-wrap {
