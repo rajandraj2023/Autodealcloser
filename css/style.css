@@ -735,3 +735,8 @@ footer {
 
 
 .m-right-wrap .btn {max-width:100%}
+
+.social-icon span{display:flex;align-items: center;
+    justify-content: center;}
+.social-icon span i {display:block}
+
