@@ -232,7 +232,10 @@ header {
 
 .section-para {
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 22px `
+		
+h
+		;
 	line-height: 36px;
 	color: #ffffff;
 }
