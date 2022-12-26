@@ -377,14 +377,14 @@ header {
 }
 
 .car-d-b {
-	background: #CAEBFB;
+	
 	padding: 70px 10px;
 	margin-top: 50px;
 	overflow:hidden;
 }
 
 .car-wrap {
-	width: 50%;
+	width: 45%;
 }
 
 .car-d-b-wrap {
@@ -393,7 +393,10 @@ header {
 	padding: 0px 15px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 	margin: 0 auto;
+	padding-top:50px
+	
 }
 
 .car-wrap ul {
